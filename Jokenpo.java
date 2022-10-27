@@ -33,8 +33,9 @@ public class Jokenpo_game {
 					rotuloEscolhaJogador();
 					escolhaJogador = input1.nextInt();
 					verificaResultado();
-					exibePlacar();
+					
 			}
+		exibePlacar();
 		System.out.println("-------------------------------------");
 		System.out.println("Deseja jogar novamente? (1)Sim (0)Não");
 		decisao = input1.nextInt();
